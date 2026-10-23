@@ -1,7 +1,7 @@
 #  Advanced Algorithms & Data Structures Lab
 
  **Author:** Abdulbari Mohammed Alameer  
-**Program:** M.Tech in Computer Science and Engineering  
+**Program:** Master's in Computer Science and Engineering  
 **University:** Tezpur University, Assam, India  
  
 
@@ -18,7 +18,7 @@ The projects focus on:
 - File Handling & Data Processing
 - Divide & Conquer Techniques
 
-All implementations are developed using **pure C and C++ without relying on STL**, to strengthen core algorithmic foundations.
+The algorithms are implemented by hand in C and C++. The C projects use no external libraries; some C++ projects use standard containers such as `std::vector` and `std::priority_queue`.
 
 ---
 

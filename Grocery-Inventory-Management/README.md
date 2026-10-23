@@ -1,10 +1,10 @@
 # 🛒 Grocery Inventory Management System (C++)
 
 ## 📌 Project Overview
-This project is a **Grocery Store Inventory Management System** implemented in **C++** without using the STL.  
-It is designed to manage grocery items efficiently using **custom-built Data Structures** such as:
+This project is a **Grocery Store Inventory Management System** implemented in **C++**.  
+It manages grocery items using **custom data-structure classes** built on `std::vector`:
 
-- Linked Lists
+- A dynamic item list
 - Queues
 - Stacks
 
@@ -19,7 +19,6 @@ The system supports **persistent storage using Binary Files**, allowing the inve
 - ✅ Category-wise Queue processing  
 - ✅ Stock management using Stack (LIFO)  
 - ✅ Binary file storage (No Database used)  
-- ✅ No STL used — full manual memory management  
 
 ---
 
@@ -27,7 +26,7 @@ The system supports **persistent storage using Binary Files**, allowing the inve
 
 | Structure | Purpose |
 |------------|----------|
-| Linked List | Store inventory records dynamically |
+| Dynamic list (`std::vector`) | Store inventory records |
 | Queue | Handle expiry tracking per category |
 | Stack | Manage stock movement (LIFO logic) |
 | Binary Files | Persistent data storage |
